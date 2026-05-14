@@ -4,14 +4,14 @@
     "slug": "a-s-c-i-i-text",
     "subcategory": "text-animations",
     "title": "A S C I I Text",
-    "description": "A S C I I Text — a text animations component for React.",
+    "description": "A S C I I Text — a text animations component for React. Uses three, ogl.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/ASCIIText/ASCIIText.jsx"
+      "jsx": "animations/text-animations/ASCIIText/ASCIIText.jsx"
     },
     "dependencies": [
       "three",
@@ -23,16 +23,16 @@
   {
     "name": "AnimatedContent",
     "slug": "animated-content",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Animated Content",
-    "description": "Animated Content — a animations component for React.",
+    "description": "Animated Content — a animated content component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/AnimatedContent/AnimatedContent.jsx"
+      "jsx": "animations/animated-content/AnimatedContent/AnimatedContent.jsx"
     },
     "dependencies": [
       "gsap"
@@ -41,18 +41,104 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "Antigravity",
-    "slug": "antigravity",
-    "subcategory": "animations",
-    "title": "Antigravity",
-    "description": "Antigravity — a animations component for React.",
+    "name": "AnimatedList",
+    "slug": "animated-list",
+    "subcategory": "animated-list",
+    "title": "Animated List",
+    "description": "Animated List — a animated list component for React. Uses framer-motion.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Antigravity/Antigravity.jsx"
+      "css": "animations/animated-list/AnimatedList/AnimatedList.css",
+      "jsx": "animations/animated-list/AnimatedList/AnimatedList.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Antigravity",
+    "slug": "antigravity",
+    "subcategory": "animated-content",
+    "title": "Antigravity",
+    "description": "Antigravity — a animated content component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-content/Antigravity/Antigravity.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Aurora",
+    "slug": "aurora",
+    "subcategory": "backgrounds",
+    "title": "Aurora",
+    "description": "Aurora — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Aurora/Aurora.css",
+      "jsx": "animations/backgrounds/Aurora/Aurora.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Balatro",
+    "slug": "balatro",
+    "subcategory": "backgrounds",
+    "title": "Balatro",
+    "description": "Balatro — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Balatro/Balatro.css",
+      "jsx": "animations/backgrounds/Balatro/Balatro.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Ballpit",
+    "slug": "ballpit",
+    "subcategory": "backgrounds",
+    "title": "Ballpit",
+    "description": "Ballpit — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/backgrounds/Ballpit/Ballpit.jsx"
     },
     "dependencies": [
       "three"
@@ -61,19 +147,43 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "BlobCursor",
-    "slug": "blob-cursor",
-    "subcategory": "animations",
-    "title": "Blob Cursor",
-    "description": "Blob Cursor — a animations component for React.",
+    "name": "Beams",
+    "slug": "beams",
+    "subcategory": "backgrounds",
+    "title": "Beams",
+    "description": "Beams — a backgrounds component for React. Uses three, @react-three/fiber.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/BlobCursor/BlobCursor.jsx",
-      "css": "animations/Animations/BlobCursor/BlobCursor.css"
+      "css": "animations/backgrounds/Beams/Beams.css",
+      "jsx": "animations/backgrounds/Beams/Beams.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "BlobCursor",
+    "slug": "blob-cursor",
+    "subcategory": "animated-content",
+    "title": "Blob Cursor",
+    "description": "Blob Cursor — a animated content component for React. Uses gsap.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "cursor",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/BlobCursor/BlobCursor.css",
+      "jsx": "animations/animated-content/BlobCursor/BlobCursor.jsx"
     },
     "dependencies": [
       "gsap"
@@ -86,17 +196,201 @@
     "slug": "blur-text",
     "subcategory": "text-animations",
     "title": "Blur Text",
-    "description": "Blur Text — a text animations component for React.",
+    "description": "Blur Text — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "blur",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/BlurText/BlurText.jsx"
+      "jsx": "animations/text-animations/BlurText/BlurText.jsx"
     },
     "dependencies": [
       "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "BorderGlow",
+    "slug": "border-glow",
+    "subcategory": "animated-list",
+    "title": "Border Glow",
+    "description": "Border Glow — a animated list component for React. Uses three.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "glow",
+      "border",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/BorderGlow/BorderGlow.css",
+      "jsx": "animations/animated-list/BorderGlow/BorderGlow.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "BounceCards",
+    "slug": "bounce-cards",
+    "subcategory": "animated-list",
+    "title": "Bounce Cards",
+    "description": "Bounce Cards — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/BounceCards/BounceCards.css",
+      "jsx": "animations/animated-list/BounceCards/BounceCards.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "BubbleMenu",
+    "slug": "bubble-menu",
+    "subcategory": "animated-list",
+    "title": "Bubble Menu",
+    "description": "Bubble Menu — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/BubbleMenu/BubbleMenu.css",
+      "jsx": "animations/animated-list/BubbleMenu/BubbleMenu.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "CardNav",
+    "slug": "card-nav",
+    "subcategory": "animated-list",
+    "title": "Card Nav",
+    "description": "Card Nav — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/CardNav/CardNav.css",
+      "jsx": "animations/animated-list/CardNav/CardNav.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "CardSwap",
+    "slug": "card-swap",
+    "subcategory": "animated-list",
+    "title": "Card Swap",
+    "description": "Card Swap — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "transition",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/CardSwap/CardSwap.css",
+      "jsx": "animations/animated-list/CardSwap/CardSwap.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Carousel",
+    "slug": "carousel",
+    "subcategory": "animated-list",
+    "title": "Carousel",
+    "description": "Carousel — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Carousel/Carousel.css",
+      "jsx": "animations/animated-list/Carousel/Carousel.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ChromaGrid",
+    "slug": "chroma-grid",
+    "subcategory": "animated-list",
+    "title": "Chroma Grid",
+    "description": "Chroma Grid — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "grid",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/ChromaGrid/ChromaGrid.css",
+      "jsx": "animations/animated-list/ChromaGrid/ChromaGrid.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "CircularGallery",
+    "slug": "circular-gallery",
+    "subcategory": "animated-list",
+    "title": "Circular Gallery",
+    "description": "Circular Gallery — a animated list component for React. Uses ogl.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/CircularGallery/CircularGallery.css",
+      "jsx": "animations/animated-list/CircularGallery/CircularGallery.jsx"
+    },
+    "dependencies": [
+      "ogl"
     ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
@@ -106,15 +400,15 @@
     "slug": "circular-text",
     "subcategory": "text-animations",
     "title": "Circular Text",
-    "description": "Circular Text — a text animations component for React.",
+    "description": "Circular Text — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/CircularText/CircularText.jsx",
-      "css": "animations/TextAnimations/CircularText/CircularText.css"
+      "css": "animations/text-animations/CircularText/CircularText.css",
+      "jsx": "animations/text-animations/CircularText/CircularText.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -125,18 +419,40 @@
   {
     "name": "ClickSpark",
     "slug": "click-spark",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Click Spark",
-    "description": "Click Spark — a animations component for React.",
+    "description": "Click Spark — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/ClickSpark/ClickSpark.jsx"
+      "jsx": "animations/animated-content/ClickSpark/ClickSpark.jsx"
     },
     "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ColorBends",
+    "slug": "color-bends",
+    "subcategory": "backgrounds",
+    "title": "Color Bends",
+    "description": "Color Bends — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "gradient",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/ColorBends/ColorBends.css",
+      "jsx": "animations/backgrounds/ColorBends/ColorBends.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
@@ -145,14 +461,36 @@
     "slug": "count-up",
     "subcategory": "text-animations",
     "title": "Count Up",
-    "description": "Count Up — a text animations component for React.",
+    "description": "Count Up — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/CountUp/CountUp.jsx"
+      "jsx": "animations/text-animations/CountUp/CountUp.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Counter",
+    "slug": "counter",
+    "subcategory": "animated-list",
+    "title": "Counter",
+    "description": "Counter — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Counter/Counter.css",
+      "jsx": "animations/animated-list/Counter/Counter.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -163,16 +501,16 @@
   {
     "name": "Crosshair",
     "slug": "crosshair",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Crosshair",
-    "description": "Crosshair — a animations component for React.",
+    "description": "Crosshair — a animated content component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Crosshair/Crosshair.jsx"
+      "jsx": "animations/animated-content/Crosshair/Crosshair.jsx"
     },
     "dependencies": [
       "gsap"
@@ -183,17 +521,18 @@
   {
     "name": "Cubes",
     "slug": "cubes",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Cubes",
-    "description": "Cubes — a animations component for React.",
+    "description": "Cubes — a animated content component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "3d",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Cubes/Cubes.jsx",
-      "css": "animations/Animations/Cubes/Cubes.css"
+      "css": "animations/animated-content/Cubes/Cubes.css",
+      "jsx": "animations/animated-content/Cubes/Cubes.jsx"
     },
     "dependencies": [
       "gsap"
@@ -206,17 +545,61 @@
     "slug": "curved-loop",
     "subcategory": "text-animations",
     "title": "Curved Loop",
-    "description": "Curved Loop — a text animations component for React.",
+    "description": "Curved Loop — a text animations component for React. Pure React/CSS.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/CurvedLoop/CurvedLoop.jsx",
-      "css": "animations/TextAnimations/CurvedLoop/CurvedLoop.css"
+      "css": "animations/text-animations/CurvedLoop/CurvedLoop.css",
+      "jsx": "animations/text-animations/CurvedLoop/CurvedLoop.jsx"
     },
     "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "DarkVeil",
+    "slug": "dark-veil",
+    "subcategory": "backgrounds",
+    "title": "Dark Veil",
+    "description": "Dark Veil — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/DarkVeil/DarkVeil.css",
+      "jsx": "animations/backgrounds/DarkVeil/DarkVeil.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "DecayCard",
+    "slug": "decay-card",
+    "subcategory": "animated-list",
+    "title": "Decay Card",
+    "description": "Decay Card — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/DecayCard/DecayCard.css",
+      "jsx": "animations/animated-list/DecayCard/DecayCard.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
@@ -225,14 +608,144 @@
     "slug": "decrypted-text",
     "subcategory": "text-animations",
     "title": "Decrypted Text",
-    "description": "Decrypted Text — a text animations component for React.",
+    "description": "Decrypted Text — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "glitch",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/DecryptedText/DecryptedText.jsx"
+      "jsx": "animations/text-animations/DecryptedText/DecryptedText.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Dither",
+    "slug": "dither",
+    "subcategory": "backgrounds",
+    "title": "Dither",
+    "description": "Dither — a backgrounds component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Dither/Dither.css",
+      "jsx": "animations/backgrounds/Dither/Dither.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Dock",
+    "slug": "dock",
+    "subcategory": "animated-list",
+    "title": "Dock",
+    "description": "Dock — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Dock/Dock.css",
+      "jsx": "animations/animated-list/Dock/Dock.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "DomeGallery",
+    "slug": "dome-gallery",
+    "subcategory": "animated-list",
+    "title": "Dome Gallery",
+    "description": "Dome Gallery — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/DomeGallery/DomeGallery.css",
+      "jsx": "animations/animated-list/DomeGallery/DomeGallery.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "DotField",
+    "slug": "dot-field",
+    "subcategory": "backgrounds",
+    "title": "Dot Field",
+    "description": "Dot Field — a backgrounds component for React. Pure React/CSS.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "particle",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/DotField/DotField.css",
+      "jsx": "animations/backgrounds/DotField/DotField.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "DotGrid",
+    "slug": "dot-grid",
+    "subcategory": "backgrounds",
+    "title": "Dot Grid",
+    "description": "Dot Grid — a backgrounds component for React. Uses gsap.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "particle",
+      "grid",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/DotGrid/DotGrid.css",
+      "jsx": "animations/backgrounds/DotGrid/DotGrid.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ElasticSlider",
+    "slug": "elastic-slider",
+    "subcategory": "animated-list",
+    "title": "Elastic Slider",
+    "description": "Elastic Slider — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/ElasticSlider/ElasticSlider.css",
+      "jsx": "animations/animated-list/ElasticSlider/ElasticSlider.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -243,35 +756,59 @@
   {
     "name": "ElectricBorder",
     "slug": "electric-border",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Electric Border",
-    "description": "Electric Border — a animations component for React.",
+    "description": "Electric Border — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "border",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/ElectricBorder/ElectricBorder.jsx",
-      "css": "animations/Animations/ElectricBorder/ElectricBorder.css"
+      "css": "animations/animated-content/ElectricBorder/ElectricBorder.css",
+      "jsx": "animations/animated-content/ElectricBorder/ElectricBorder.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "FadeContent",
-    "slug": "fade-content",
-    "subcategory": "animations",
-    "title": "Fade Content",
-    "description": "Fade Content — a animations component for React.",
+    "name": "EvilEye",
+    "slug": "evil-eye",
+    "subcategory": "backgrounds",
+    "title": "Evil Eye",
+    "description": "Evil Eye — a backgrounds component for React. Uses ogl.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/FadeContent/FadeContent.jsx"
+      "css": "animations/backgrounds/EvilEye/EvilEye.css",
+      "jsx": "animations/backgrounds/EvilEye/EvilEye.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FadeContent",
+    "slug": "fade-content",
+    "subcategory": "animated-content",
+    "title": "Fade Content",
+    "description": "Fade Content — a animated content component for React. Uses gsap.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "blur",
+      "transition",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-content/FadeContent/FadeContent.jsx"
     },
     "dependencies": [
       "gsap"
@@ -284,15 +821,147 @@
     "slug": "falling-text",
     "subcategory": "text-animations",
     "title": "Falling Text",
-    "description": "Falling Text — a text animations component for React.",
+    "description": "Falling Text — a text animations component for React. Uses matter-js.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/FallingText/FallingText.jsx",
-      "css": "animations/TextAnimations/FallingText/FallingText.css"
+      "css": "animations/text-animations/FallingText/FallingText.css",
+      "jsx": "animations/text-animations/FallingText/FallingText.jsx"
+    },
+    "dependencies": [
+      "matter-js"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FaultyTerminal",
+    "slug": "faulty-terminal",
+    "subcategory": "backgrounds",
+    "title": "Faulty Terminal",
+    "description": "Faulty Terminal — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/FaultyTerminal/FaultyTerminal.css",
+      "jsx": "animations/backgrounds/FaultyTerminal/FaultyTerminal.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FloatingLines",
+    "slug": "floating-lines",
+    "subcategory": "backgrounds",
+    "title": "Floating Lines",
+    "description": "Floating Lines — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "scroll",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/FloatingLines/FloatingLines.css",
+      "jsx": "animations/backgrounds/FloatingLines/FloatingLines.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FlowingMenu",
+    "slug": "flowing-menu",
+    "subcategory": "animated-list",
+    "title": "Flowing Menu",
+    "description": "Flowing Menu — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/FlowingMenu/FlowingMenu.css",
+      "jsx": "animations/animated-list/FlowingMenu/FlowingMenu.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FluidGlass",
+    "slug": "fluid-glass",
+    "subcategory": "animated-list",
+    "title": "Fluid Glass",
+    "description": "Fluid Glass — a animated list component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-list/FluidGlass/FluidGlass.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "FlyingPosters",
+    "slug": "flying-posters",
+    "subcategory": "animated-list",
+    "title": "Flying Posters",
+    "description": "Flying Posters — a animated list component for React. Uses ogl.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/FlyingPosters/FlyingPosters.css",
+      "jsx": "animations/animated-list/FlyingPosters/FlyingPosters.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Folder",
+    "slug": "folder",
+    "subcategory": "animated-list",
+    "title": "Folder",
+    "description": "Folder — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Folder/Folder.css",
+      "jsx": "animations/animated-list/Folder/Folder.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
@@ -303,33 +972,55 @@
     "slug": "fuzzy-text",
     "subcategory": "text-animations",
     "title": "Fuzzy Text",
-    "description": "Fuzzy Text — a text animations component for React.",
+    "description": "Fuzzy Text — a text animations component for React. Pure React/CSS.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/FuzzyText/FuzzyText.jsx"
+      "jsx": "animations/text-animations/FuzzyText/FuzzyText.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "GhostCursor",
-    "slug": "ghost-cursor",
-    "subcategory": "animations",
-    "title": "Ghost Cursor",
-    "description": "Ghost Cursor — a animations component for React.",
+    "name": "Galaxy",
+    "slug": "galaxy",
+    "subcategory": "backgrounds",
+    "title": "Galaxy",
+    "description": "Galaxy — a backgrounds component for React. Uses ogl.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/GhostCursor/GhostCursor.jsx",
-      "css": "animations/Animations/GhostCursor/GhostCursor.css"
+      "css": "animations/backgrounds/Galaxy/Galaxy.css",
+      "jsx": "animations/backgrounds/Galaxy/Galaxy.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GhostCursor",
+    "slug": "ghost-cursor",
+    "subcategory": "animated-content",
+    "title": "Ghost Cursor",
+    "description": "Ghost Cursor — a animated content component for React. Uses three.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "cursor",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/GhostCursor/GhostCursor.css",
+      "jsx": "animations/animated-content/GhostCursor/GhostCursor.jsx"
     },
     "dependencies": [
       "three"
@@ -340,17 +1031,58 @@
   {
     "name": "GlareHover",
     "slug": "glare-hover",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Glare Hover",
-    "description": "Glare Hover — a animations component for React.",
+    "description": "Glare Hover — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "hover",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/GlareHover/GlareHover.jsx",
-      "css": "animations/Animations/GlareHover/GlareHover.css"
+      "css": "animations/animated-content/GlareHover/GlareHover.css",
+      "jsx": "animations/animated-content/GlareHover/GlareHover.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GlassIcons",
+    "slug": "glass-icons",
+    "subcategory": "animated-list",
+    "title": "Glass Icons",
+    "description": "Glass Icons — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/GlassIcons/GlassIcons.css",
+      "jsx": "animations/animated-list/GlassIcons/GlassIcons.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GlassSurface",
+    "slug": "glass-surface",
+    "subcategory": "animated-list",
+    "title": "Glass Surface",
+    "description": "Glass Surface — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/GlassSurface/GlassSurface.css",
+      "jsx": "animations/animated-list/GlassSurface/GlassSurface.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
@@ -361,17 +1093,60 @@
     "slug": "glitch-text",
     "subcategory": "text-animations",
     "title": "Glitch Text",
-    "description": "Glitch Text — a text animations component for React.",
+    "description": "Glitch Text — a text animations component for React. Pure React/CSS.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "glitch",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/GlitchText/GlitchText.jsx",
-      "css": "animations/TextAnimations/GlitchText/GlitchText.css"
+      "css": "animations/text-animations/GlitchText/GlitchText.css",
+      "jsx": "animations/text-animations/GlitchText/GlitchText.jsx"
     },
     "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GooeyNav",
+    "slug": "gooey-nav",
+    "subcategory": "animated-list",
+    "title": "Gooey Nav",
+    "description": "Gooey Nav — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/GooeyNav/GooeyNav.css",
+      "jsx": "animations/animated-list/GooeyNav/GooeyNav.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GradientBlinds",
+    "slug": "gradient-blinds",
+    "subcategory": "backgrounds",
+    "title": "Gradient Blinds",
+    "description": "Gradient Blinds — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "gradient",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/GradientBlinds/GradientBlinds.css",
+      "jsx": "animations/backgrounds/GradientBlinds/GradientBlinds.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
@@ -380,15 +1155,16 @@
     "slug": "gradient-text",
     "subcategory": "text-animations",
     "title": "Gradient Text",
-    "description": "Gradient Text — a text animations component for React.",
+    "description": "Gradient Text — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "gradient",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/GradientText/GradientText.jsx",
-      "css": "animations/TextAnimations/GradientText/GradientText.css"
+      "css": "animations/text-animations/GradientText/GradientText.css",
+      "jsx": "animations/text-animations/GradientText/GradientText.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -399,36 +1175,81 @@
   {
     "name": "GradualBlur",
     "slug": "gradual-blur",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Gradual Blur",
-    "description": "Gradual Blur — a animations component for React.",
+    "description": "Gradual Blur — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "blur",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/GradualBlur/GradualBlur.jsx",
-      "css": "animations/Animations/GradualBlur/GradualBlur.css"
+      "css": "animations/animated-content/GradualBlur/GradualBlur.css",
+      "jsx": "animations/animated-content/GradualBlur/GradualBlur.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "ImageTrail",
-    "slug": "image-trail",
-    "subcategory": "animations",
-    "title": "Image Trail",
-    "description": "Image Trail — a animations component for React.",
+    "name": "Grainient",
+    "slug": "grainient",
+    "subcategory": "backgrounds",
+    "title": "Grainient",
+    "description": "Grainient — a backgrounds component for React. Uses ogl.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/ImageTrail/ImageTrail.jsx",
-      "css": "animations/Animations/ImageTrail/ImageTrail.css"
+      "css": "animations/backgrounds/Grainient/Grainient.css",
+      "jsx": "animations/backgrounds/Grainient/Grainient.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GridDistortion",
+    "slug": "grid-distortion",
+    "subcategory": "backgrounds",
+    "title": "Grid Distortion",
+    "description": "Grid Distortion — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "grid",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/GridDistortion/GridDistortion.css",
+      "jsx": "animations/backgrounds/GridDistortion/GridDistortion.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "GridMotion",
+    "slug": "grid-motion",
+    "subcategory": "backgrounds",
+    "title": "Grid Motion",
+    "description": "Grid Motion — a backgrounds component for React. Uses gsap.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "grid",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/GridMotion/GridMotion.css",
+      "jsx": "animations/backgrounds/GridMotion/GridMotion.jsx"
     },
     "dependencies": [
       "gsap"
@@ -437,19 +1258,298 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "LaserFlow",
-    "slug": "laser-flow",
-    "subcategory": "animations",
-    "title": "Laser Flow",
-    "description": "Laser Flow — a animations component for React.",
+    "name": "GridScan",
+    "slug": "grid-scan",
+    "subcategory": "backgrounds",
+    "title": "Grid Scan",
+    "description": "Grid Scan — a backgrounds component for React. Uses three.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "grid",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/LaserFlow/LaserFlow.jsx",
-      "css": "animations/Animations/LaserFlow/LaserFlow.css"
+      "css": "animations/backgrounds/GridScan/GridScan.css",
+      "jsx": "animations/backgrounds/GridScan/GridScan.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Hyperspeed",
+    "slug": "hyperspeed",
+    "subcategory": "backgrounds",
+    "title": "Hyperspeed",
+    "description": "Hyperspeed — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/backgrounds/Hyperspeed/Hyperspeed.jsx",
+      "css": "animations/backgrounds/Hyperspeed/Hyperspeed.css"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ImageTrail",
+    "slug": "image-trail",
+    "subcategory": "animated-content",
+    "title": "Image Trail",
+    "description": "Image Trail — a animated content component for React. Uses gsap.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/ImageTrail/ImageTrail.css",
+      "jsx": "animations/animated-content/ImageTrail/ImageTrail.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "InfiniteMenu",
+    "slug": "infinite-menu",
+    "subcategory": "animated-list",
+    "title": "Infinite Menu",
+    "description": "Infinite Menu — a animated list component for React. Uses ogl.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/InfiniteMenu/InfiniteMenu.css",
+      "jsx": "animations/animated-list/InfiniteMenu/InfiniteMenu.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Iridescence",
+    "slug": "iridescence",
+    "subcategory": "backgrounds",
+    "title": "Iridescence",
+    "description": "Iridescence — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "gradient",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Iridescence/Iridescence.css",
+      "jsx": "animations/backgrounds/Iridescence/Iridescence.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Lanyard",
+    "slug": "lanyard",
+    "subcategory": "animated-list",
+    "title": "Lanyard",
+    "description": "Lanyard — a animated list component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Lanyard/Lanyard.css",
+      "jsx": "animations/animated-list/Lanyard/Lanyard.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LaserFlow",
+    "slug": "laser-flow",
+    "subcategory": "animated-content",
+    "title": "Laser Flow",
+    "description": "Laser Flow — a animated content component for React. Uses three.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/LaserFlow/LaserFlow.css",
+      "jsx": "animations/animated-content/LaserFlow/LaserFlow.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LetterGlitch",
+    "slug": "letter-glitch",
+    "subcategory": "backgrounds",
+    "title": "Letter Glitch",
+    "description": "Letter Glitch — a backgrounds component for React. Pure React/CSS.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "text",
+      "glitch",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/backgrounds/LetterGlitch/LetterGlitch.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LightPillar",
+    "slug": "light-pillar",
+    "subcategory": "backgrounds",
+    "title": "Light Pillar",
+    "description": "Light Pillar — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/LightPillar/LightPillar.css",
+      "jsx": "animations/backgrounds/LightPillar/LightPillar.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LightRays",
+    "slug": "light-rays",
+    "subcategory": "backgrounds",
+    "title": "Light Rays",
+    "description": "Light Rays — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/LightRays/LightRays.css",
+      "jsx": "animations/backgrounds/LightRays/LightRays.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Lightning",
+    "slug": "lightning",
+    "subcategory": "backgrounds",
+    "title": "Lightning",
+    "description": "Lightning — a backgrounds component for React. Pure React/CSS.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Lightning/Lightning.css",
+      "jsx": "animations/backgrounds/Lightning/Lightning.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LineWaves",
+    "slug": "line-waves",
+    "subcategory": "backgrounds",
+    "title": "Line Waves",
+    "description": "Line Waves — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/LineWaves/LineWaves.css",
+      "jsx": "animations/backgrounds/LineWaves/LineWaves.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LiquidChrome",
+    "slug": "liquid-chrome",
+    "subcategory": "backgrounds",
+    "title": "Liquid Chrome",
+    "description": "Liquid Chrome — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/LiquidChrome/LiquidChrome.css",
+      "jsx": "animations/backgrounds/LiquidChrome/LiquidChrome.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "LiquidEther",
+    "slug": "liquid-ether",
+    "subcategory": "backgrounds",
+    "title": "Liquid Ether",
+    "description": "Liquid Ether — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/LiquidEther/LiquidEther.css",
+      "jsx": "animations/backgrounds/LiquidEther/LiquidEther.jsx"
     },
     "dependencies": [
       "three"
@@ -460,36 +1560,59 @@
   {
     "name": "LogoLoop",
     "slug": "logo-loop",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Logo Loop",
-    "description": "Logo Loop — a animations component for React.",
+    "description": "Logo Loop — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/LogoLoop/LogoLoop.jsx",
-      "css": "animations/Animations/LogoLoop/LogoLoop.css"
+      "css": "animations/animated-content/LogoLoop/LogoLoop.css",
+      "jsx": "animations/animated-content/LogoLoop/LogoLoop.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "MagicRings",
-    "slug": "magic-rings",
-    "subcategory": "animations",
-    "title": "Magic Rings",
-    "description": "Magic Rings — a animations component for React.",
+    "name": "MagicBento",
+    "slug": "magic-bento",
+    "subcategory": "animated-list",
+    "title": "Magic Bento",
+    "description": "Magic Bento — a animated list component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/MagicRings/MagicRings.jsx",
-      "css": "animations/Animations/MagicRings/MagicRings.css"
+      "css": "animations/animated-list/MagicBento/MagicBento.css",
+      "jsx": "animations/animated-list/MagicBento/MagicBento.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "MagicRings",
+    "slug": "magic-rings",
+    "subcategory": "animated-content",
+    "title": "Magic Rings",
+    "description": "Magic Rings — a animated content component for React. Uses three.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "3d",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/MagicRings/MagicRings.css",
+      "jsx": "animations/animated-content/MagicRings/MagicRings.jsx"
     },
     "dependencies": [
       "three"
@@ -500,16 +1623,17 @@
   {
     "name": "Magnet",
     "slug": "magnet",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Magnet",
-    "description": "Magnet — a animations component for React.",
+    "description": "Magnet — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "hover",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Magnet/Magnet.jsx"
+      "jsx": "animations/animated-content/Magnet/Magnet.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
@@ -518,36 +1642,60 @@
   {
     "name": "MagnetLines",
     "slug": "magnet-lines",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Magnet Lines",
-    "description": "Magnet Lines — a animations component for React.",
+    "description": "Magnet Lines — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "wave",
+      "hover",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/MagnetLines/MagnetLines.jsx",
-      "css": "animations/Animations/MagnetLines/MagnetLines.css"
+      "css": "animations/animated-content/MagnetLines/MagnetLines.css",
+      "jsx": "animations/animated-content/MagnetLines/MagnetLines.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "MetaBalls",
-    "slug": "meta-balls",
-    "subcategory": "animations",
-    "title": "Meta Balls",
-    "description": "Meta Balls — a animations component for React.",
+    "name": "Masonry",
+    "slug": "masonry",
+    "subcategory": "animated-list",
+    "title": "Masonry",
+    "description": "Masonry — a animated list component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/MetaBalls/MetaBalls.jsx",
-      "css": "animations/Animations/MetaBalls/MetaBalls.css"
+      "css": "animations/animated-list/Masonry/Masonry.css",
+      "jsx": "animations/animated-list/Masonry/Masonry.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "MetaBalls",
+    "slug": "meta-balls",
+    "subcategory": "animated-content",
+    "title": "Meta Balls",
+    "description": "Meta Balls — a animated content component for React. Uses ogl.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/MetaBalls/MetaBalls.css",
+      "jsx": "animations/animated-content/MetaBalls/MetaBalls.jsx"
     },
     "dependencies": [
       "ogl"
@@ -558,55 +1706,100 @@
   {
     "name": "MetallicPaint",
     "slug": "metallic-paint",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Metallic Paint",
-    "description": "Metallic Paint — a animations component for React.",
+    "description": "Metallic Paint — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/MetallicPaint/MetallicPaint.jsx",
-      "css": "animations/Animations/MetallicPaint/MetallicPaint.css"
+      "css": "animations/animated-content/MetallicPaint/MetallicPaint.css",
+      "jsx": "animations/animated-content/MetallicPaint/MetallicPaint.jsx"
     },
     "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ModelViewer",
+    "slug": "model-viewer",
+    "subcategory": "animated-list",
+    "title": "Model Viewer",
+    "description": "Model Viewer — a animated list component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "3d",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-list/ModelViewer/ModelViewer.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
     "name": "Noise",
     "slug": "noise",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Noise",
-    "description": "Noise — a animations component for React.",
+    "description": "Noise — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Noise/Noise.jsx",
-      "css": "animations/Animations/Noise/Noise.css"
+      "css": "animations/animated-content/Noise/Noise.css",
+      "jsx": "animations/animated-content/Noise/Noise.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "OrbitImages",
-    "slug": "orbit-images",
-    "subcategory": "animations",
-    "title": "Orbit Images",
-    "description": "Orbit Images — a animations component for React.",
+    "name": "Orb",
+    "slug": "orb",
+    "subcategory": "backgrounds",
+    "title": "Orb",
+    "description": "Orb — a backgrounds component for React. Uses ogl.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/OrbitImages/OrbitImages.jsx",
-      "css": "animations/Animations/OrbitImages/OrbitImages.css"
+      "css": "animations/backgrounds/Orb/Orb.css",
+      "jsx": "animations/backgrounds/Orb/Orb.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "OrbitImages",
+    "slug": "orbit-images",
+    "subcategory": "animated-content",
+    "title": "Orbit Images",
+    "description": "Orbit Images — a animated content component for React. Uses framer-motion.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "3d",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/OrbitImages/OrbitImages.css",
+      "jsx": "animations/animated-content/OrbitImages/OrbitImages.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -615,40 +1808,42 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "PixelTrail",
-    "slug": "pixel-trail",
-    "subcategory": "animations",
-    "title": "Pixel Trail",
-    "description": "Pixel Trail — a animations component for React.",
+    "name": "Particles",
+    "slug": "particles",
+    "subcategory": "backgrounds",
+    "title": "Particles",
+    "description": "Particles — a backgrounds component for React. Uses ogl.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "particle",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/PixelTrail/PixelTrail.jsx",
-      "css": "animations/Animations/PixelTrail/PixelTrail.css"
+      "css": "animations/backgrounds/Particles/Particles.css",
+      "jsx": "animations/backgrounds/Particles/Particles.jsx"
     },
     "dependencies": [
-      "three"
+      "ogl"
     ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "PixelTransition",
-    "slug": "pixel-transition",
-    "subcategory": "animations",
-    "title": "Pixel Transition",
-    "description": "Pixel Transition — a animations component for React.",
+    "name": "PillNav",
+    "slug": "pill-nav",
+    "subcategory": "animated-list",
+    "title": "Pill Nav",
+    "description": "Pill Nav — a animated list component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/PixelTransition/PixelTransition.jsx",
-      "css": "animations/Animations/PixelTransition/PixelTransition.css"
+      "css": "animations/animated-list/PillNav/PillNav.css",
+      "jsx": "animations/animated-list/PillNav/PillNav.jsx"
     },
     "dependencies": [
       "gsap"
@@ -657,19 +1852,304 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "Ribbons",
-    "slug": "ribbons",
-    "subcategory": "animations",
-    "title": "Ribbons",
-    "description": "Ribbons — a animations component for React.",
+    "name": "PixelBlast",
+    "slug": "pixel-blast",
+    "subcategory": "backgrounds",
+    "title": "Pixel Blast",
+    "description": "Pixel Blast — a backgrounds component for React. Uses three.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "particle",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/Ribbons/Ribbons.jsx",
-      "css": "animations/Animations/Ribbons/Ribbons.css"
+      "css": "animations/backgrounds/PixelBlast/PixelBlast.css",
+      "jsx": "animations/backgrounds/PixelBlast/PixelBlast.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PixelCard",
+    "slug": "pixel-card",
+    "subcategory": "animated-list",
+    "title": "Pixel Card",
+    "description": "Pixel Card — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "particle",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/PixelCard/PixelCard.css",
+      "jsx": "animations/animated-list/PixelCard/PixelCard.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PixelSnow",
+    "slug": "pixel-snow",
+    "subcategory": "backgrounds",
+    "title": "Pixel Snow",
+    "description": "Pixel Snow — a backgrounds component for React. Uses three.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "particle",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/PixelSnow/PixelSnow.css",
+      "jsx": "animations/backgrounds/PixelSnow/PixelSnow.jsx"
+    },
+    "dependencies": [
+      "three"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PixelTrail",
+    "slug": "pixel-trail",
+    "subcategory": "animated-content",
+    "title": "Pixel Trail",
+    "description": "Pixel Trail — a animated content component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "particle",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/PixelTrail/PixelTrail.css",
+      "jsx": "animations/animated-content/PixelTrail/PixelTrail.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PixelTransition",
+    "slug": "pixel-transition",
+    "subcategory": "animated-content",
+    "title": "Pixel Transition",
+    "description": "Pixel Transition — a animated content component for React. Uses gsap.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "particle",
+      "transition",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/PixelTransition/PixelTransition.css",
+      "jsx": "animations/animated-content/PixelTransition/PixelTransition.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Plasma",
+    "slug": "plasma",
+    "subcategory": "backgrounds",
+    "title": "Plasma",
+    "description": "Plasma — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Plasma/Plasma.css",
+      "jsx": "animations/backgrounds/Plasma/Plasma.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PlasmaWave",
+    "slug": "plasma-wave",
+    "subcategory": "backgrounds",
+    "title": "Plasma Wave",
+    "description": "Plasma Wave — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/PlasmaWave/PlasmaWave.css",
+      "jsx": "animations/backgrounds/PlasmaWave/PlasmaWave.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Prism",
+    "slug": "prism",
+    "subcategory": "backgrounds",
+    "title": "Prism",
+    "description": "Prism — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Prism/Prism.css",
+      "jsx": "animations/backgrounds/Prism/Prism.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "PrismaticBurst",
+    "slug": "prismatic-burst",
+    "subcategory": "backgrounds",
+    "title": "Prismatic Burst",
+    "description": "Prismatic Burst — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/PrismaticBurst/PrismaticBurst.css",
+      "jsx": "animations/backgrounds/PrismaticBurst/PrismaticBurst.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ProfileCard",
+    "slug": "profile-card",
+    "subcategory": "animated-list",
+    "title": "Profile Card",
+    "description": "Profile Card — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/ProfileCard/ProfileCard.css",
+      "jsx": "animations/animated-list/ProfileCard/ProfileCard.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Radar",
+    "slug": "radar",
+    "subcategory": "backgrounds",
+    "title": "Radar",
+    "description": "Radar — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Radar/Radar.css",
+      "jsx": "animations/backgrounds/Radar/Radar.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ReflectiveCard",
+    "slug": "reflective-card",
+    "subcategory": "animated-list",
+    "title": "Reflective Card",
+    "description": "Reflective Card — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/ReflectiveCard/ReflectiveCard.css",
+      "jsx": "animations/animated-list/ReflectiveCard/ReflectiveCard.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Ribbons",
+    "slug": "ribbons",
+    "subcategory": "animated-content",
+    "title": "Ribbons",
+    "description": "Ribbons — a animated content component for React. Uses ogl.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/Ribbons/Ribbons.css",
+      "jsx": "animations/animated-content/Ribbons/Ribbons.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "RippleGrid",
+    "slug": "ripple-grid",
+    "subcategory": "backgrounds",
+    "title": "Ripple Grid",
+    "description": "Ripple Grid — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "grid",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/RippleGrid/RippleGrid.css",
+      "jsx": "animations/backgrounds/RippleGrid/RippleGrid.jsx"
     },
     "dependencies": [
       "ogl"
@@ -682,15 +2162,15 @@
     "slug": "rotating-text",
     "subcategory": "text-animations",
     "title": "Rotating Text",
-    "description": "Rotating Text — a text animations component for React.",
+    "description": "Rotating Text — a text animations component for React. Uses framer-motion.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/RotatingText/RotatingText.jsx",
-      "css": "animations/TextAnimations/RotatingText/RotatingText.css"
+      "css": "animations/text-animations/RotatingText/RotatingText.css",
+      "jsx": "animations/text-animations/RotatingText/RotatingText.jsx"
     },
     "dependencies": [
       "framer-motion"
@@ -703,15 +2183,16 @@
     "slug": "scrambled-text",
     "subcategory": "text-animations",
     "title": "Scrambled Text",
-    "description": "Scrambled Text — a text animations component for React.",
+    "description": "Scrambled Text — a text animations component for React. Uses gsap.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "glitch",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/ScrambledText/ScrambledText.jsx",
-      "css": "animations/TextAnimations/ScrambledText/ScrambledText.css"
+      "css": "animations/text-animations/ScrambledText/ScrambledText.css",
+      "jsx": "animations/text-animations/ScrambledText/ScrambledText.jsx"
     },
     "dependencies": [
       "gsap"
@@ -724,15 +2205,16 @@
     "slug": "scroll-float",
     "subcategory": "text-animations",
     "title": "Scroll Float",
-    "description": "Scroll Float — a text animations component for React.",
+    "description": "Scroll Float — a text animations component for React. Uses gsap.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "scroll",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/ScrollFloat/ScrollFloat.jsx",
-      "css": "animations/TextAnimations/ScrollFloat/ScrollFloat.css"
+      "css": "animations/text-animations/ScrollFloat/ScrollFloat.css",
+      "jsx": "animations/text-animations/ScrollFloat/ScrollFloat.jsx"
     },
     "dependencies": [
       "gsap"
@@ -745,15 +2227,16 @@
     "slug": "scroll-reveal",
     "subcategory": "text-animations",
     "title": "Scroll Reveal",
-    "description": "Scroll Reveal — a text animations component for React.",
+    "description": "Scroll Reveal — a text animations component for React. Uses gsap.",
     "tags": [
       "text-animations",
-      "react",
-      "text"
+      "text",
+      "scroll",
+      "react"
     ],
     "files": {
-      "jsx": "animations/TextAnimations/ScrollReveal/ScrollReveal.jsx",
-      "css": "animations/TextAnimations/ScrollReveal/ScrollReveal.css"
+      "css": "animations/text-animations/ScrollReveal/ScrollReveal.css",
+      "jsx": "animations/text-animations/ScrollReveal/ScrollReveal.jsx"
     },
     "dependencies": [
       "gsap"
@@ -762,18 +2245,62 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "ShapeBlur",
-    "slug": "shape-blur",
-    "subcategory": "animations",
-    "title": "Shape Blur",
-    "description": "Shape Blur — a animations component for React.",
+    "name": "ScrollStack",
+    "slug": "scroll-stack",
+    "subcategory": "animated-list",
+    "title": "Scroll Stack",
+    "description": "Scroll Stack — a animated list component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "scroll",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/ShapeBlur/ShapeBlur.jsx"
+      "css": "animations/animated-list/ScrollStack/ScrollStack.css",
+      "jsx": "animations/animated-list/ScrollStack/ScrollStack.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ScrollVelocity",
+    "slug": "scroll-velocity",
+    "subcategory": "text-animations",
+    "title": "Scroll Velocity",
+    "description": "Scroll Velocity — a text animations component for React. Uses framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "scroll",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/ScrollVelocity/ScrollVelocity.css",
+      "jsx": "animations/text-animations/ScrollVelocity/ScrollVelocity.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ShapeBlur",
+    "slug": "shape-blur",
+    "subcategory": "animated-content",
+    "title": "Shape Blur",
+    "description": "Shape Blur — a animated content component for React. Uses three.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "blur",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-content/ShapeBlur/ShapeBlur.jsx"
     },
     "dependencies": [
       "three"
@@ -782,56 +2309,275 @@
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "SplashCursor",
-    "slug": "splash-cursor",
-    "subcategory": "animations",
-    "title": "Splash Cursor",
-    "description": "Splash Cursor — a animations component for React.",
+    "name": "ShapeGrid",
+    "slug": "shape-grid",
+    "subcategory": "backgrounds",
+    "title": "Shape Grid",
+    "description": "Shape Grid — a backgrounds component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "backgrounds",
+      "background",
+      "grid",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/SplashCursor/SplashCursor.jsx"
+      "css": "animations/backgrounds/ShapeGrid/ShapeGrid.css",
+      "jsx": "animations/backgrounds/ShapeGrid/ShapeGrid.jsx"
     },
     "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "ShinyText",
+    "slug": "shiny-text",
+    "subcategory": "text-animations",
+    "title": "Shiny Text",
+    "description": "Shiny Text — a text animations component for React. Uses framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "gradient",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/ShinyText/ShinyText.css",
+      "jsx": "animations/text-animations/ShinyText/ShinyText.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Shuffle",
+    "slug": "shuffle",
+    "subcategory": "text-animations",
+    "title": "Shuffle",
+    "description": "Shuffle — a text animations component for React. Uses gsap, framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "glitch",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/Shuffle/Shuffle.css",
+      "jsx": "animations/text-animations/Shuffle/Shuffle.jsx"
+    },
+    "dependencies": [
+      "gsap",
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Silk",
+    "slug": "silk",
+    "subcategory": "backgrounds",
+    "title": "Silk",
+    "description": "Silk — a backgrounds component for React. Uses three, @react-three/fiber.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/backgrounds/Silk/Silk.jsx"
+    },
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "SoftAurora",
+    "slug": "soft-aurora",
+    "subcategory": "backgrounds",
+    "title": "Soft Aurora",
+    "description": "Soft Aurora — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "glow",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/SoftAurora/SoftAurora.css",
+      "jsx": "animations/backgrounds/SoftAurora/SoftAurora.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "SplashCursor",
+    "slug": "splash-cursor",
+    "subcategory": "animated-content",
+    "title": "Splash Cursor",
+    "description": "Splash Cursor — a animated content component for React. Pure React/CSS.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "cursor",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/animated-content/SplashCursor/SplashCursor.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "SplitText",
+    "slug": "split-text",
+    "subcategory": "text-animations",
+    "title": "Split Text",
+    "description": "Split Text — a text animations component for React. Uses gsap.",
+    "tags": [
+      "text-animations",
+      "text",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/text-animations/SplitText/SplitText.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "SpotlightCard",
+    "slug": "spotlight-card",
+    "subcategory": "animated-list",
+    "title": "Spotlight Card",
+    "description": "Spotlight Card — a animated list component for React. Pure React/CSS.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "glow",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/SpotlightCard/SpotlightCard.css",
+      "jsx": "animations/animated-list/SpotlightCard/SpotlightCard.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Stack",
+    "slug": "stack",
+    "subcategory": "animated-list",
+    "title": "Stack",
+    "description": "Stack — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/Stack/Stack.css",
+      "jsx": "animations/animated-list/Stack/Stack.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "StaggeredMenu",
+    "slug": "staggered-menu",
+    "subcategory": "animated-list",
+    "title": "Staggered Menu",
+    "description": "Staggered Menu — a animated list component for React. Uses gsap.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/StaggeredMenu/StaggeredMenu.css",
+      "jsx": "animations/animated-list/StaggeredMenu/StaggeredMenu.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
     "name": "StarBorder",
     "slug": "star-border",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Star Border",
-    "description": "Star Border — a animations component for React.",
+    "description": "Star Border — a animated content component for React. Pure React/CSS.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "border",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/StarBorder/StarBorder.jsx",
-      "css": "animations/Animations/StarBorder/StarBorder.css"
+      "css": "animations/animated-content/StarBorder/StarBorder.css",
+      "jsx": "animations/animated-content/StarBorder/StarBorder.jsx"
     },
     "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   },
   {
-    "name": "StickerPeel",
-    "slug": "sticker-peel",
-    "subcategory": "animations",
-    "title": "Sticker Peel",
-    "description": "Sticker Peel — a animations component for React.",
+    "name": "Stepper",
+    "slug": "stepper",
+    "subcategory": "animated-list",
+    "title": "Stepper",
+    "description": "Stepper — a animated list component for React. Uses framer-motion.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-list",
+      "list",
+      "animation",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/StickerPeel/StickerPeel.jsx",
-      "css": "animations/Animations/StickerPeel/StickerPeel.css"
+      "css": "animations/animated-list/Stepper/Stepper.css",
+      "jsx": "animations/animated-list/Stepper/Stepper.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "StickerPeel",
+    "slug": "sticker-peel",
+    "subcategory": "animated-content",
+    "title": "Sticker Peel",
+    "description": "Sticker Peel — a animated content component for React. Uses gsap.",
+    "tags": [
+      "animated-content",
+      "animation",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-content/StickerPeel/StickerPeel.css",
+      "jsx": "animations/animated-content/StickerPeel/StickerPeel.jsx"
     },
     "dependencies": [
       "gsap"
@@ -842,21 +2588,190 @@
   {
     "name": "TargetCursor",
     "slug": "target-cursor",
-    "subcategory": "animations",
+    "subcategory": "animated-content",
     "title": "Target Cursor",
-    "description": "Target Cursor — a animations component for React.",
+    "description": "Target Cursor — a animated content component for React. Uses gsap.",
     "tags": [
-      "animations",
-      "react",
-      "animation"
+      "animated-content",
+      "animation",
+      "cursor",
+      "react"
     ],
     "files": {
-      "jsx": "animations/Animations/TargetCursor/TargetCursor.jsx",
-      "css": "animations/Animations/TargetCursor/TargetCursor.css"
+      "css": "animations/animated-content/TargetCursor/TargetCursor.css",
+      "jsx": "animations/animated-content/TargetCursor/TargetCursor.jsx"
     },
     "dependencies": [
       "gsap"
     ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "TextCursor",
+    "slug": "text-cursor",
+    "subcategory": "text-animations",
+    "title": "Text Cursor",
+    "description": "Text Cursor — a text animations component for React. Uses framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "cursor",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/TextCursor/TextCursor.css",
+      "jsx": "animations/text-animations/TextCursor/TextCursor.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "TextPressure",
+    "slug": "text-pressure",
+    "subcategory": "text-animations",
+    "title": "Text Pressure",
+    "description": "Text Pressure — a text animations component for React. Pure React/CSS.",
+    "tags": [
+      "text-animations",
+      "text",
+      "react"
+    ],
+    "files": {
+      "jsx": "animations/text-animations/TextPressure/TextPressure.jsx"
+    },
+    "dependencies": [],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "TextType",
+    "slug": "text-type",
+    "subcategory": "text-animations",
+    "title": "Text Type",
+    "description": "Text Type — a text animations component for React. Uses gsap.",
+    "tags": [
+      "text-animations",
+      "text",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/TextType/TextType.css",
+      "jsx": "animations/text-animations/TextType/TextType.jsx"
+    },
+    "dependencies": [
+      "gsap"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Threads",
+    "slug": "threads",
+    "subcategory": "backgrounds",
+    "title": "Threads",
+    "description": "Threads — a backgrounds component for React. Uses ogl.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Threads/Threads.css",
+      "jsx": "animations/backgrounds/Threads/Threads.jsx"
+    },
+    "dependencies": [
+      "ogl"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "TiltedCard",
+    "slug": "tilted-card",
+    "subcategory": "animated-list",
+    "title": "Tilted Card",
+    "description": "Tilted Card — a animated list component for React. Uses framer-motion.",
+    "tags": [
+      "animated-list",
+      "list",
+      "animation",
+      "card",
+      "react"
+    ],
+    "files": {
+      "css": "animations/animated-list/TiltedCard/TiltedCard.css",
+      "jsx": "animations/animated-list/TiltedCard/TiltedCard.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "TrueFocus",
+    "slug": "true-focus",
+    "subcategory": "text-animations",
+    "title": "True Focus",
+    "description": "True Focus — a text animations component for React. Uses framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/TrueFocus/TrueFocus.css",
+      "jsx": "animations/text-animations/TrueFocus/TrueFocus.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "VariableProximity",
+    "slug": "variable-proximity",
+    "subcategory": "text-animations",
+    "title": "Variable Proximity",
+    "description": "Variable Proximity — a text animations component for React. Uses framer-motion.",
+    "tags": [
+      "text-animations",
+      "text",
+      "react"
+    ],
+    "files": {
+      "css": "animations/text-animations/VariableProximity/VariableProximity.css",
+      "jsx": "animations/text-animations/VariableProximity/VariableProximity.jsx"
+    },
+    "dependencies": [
+      "framer-motion"
+    ],
+    "source": "react-bits",
+    "sourceUrl": "https://reactbits.dev"
+  },
+  {
+    "name": "Waves",
+    "slug": "waves",
+    "subcategory": "backgrounds",
+    "title": "Waves",
+    "description": "Waves — a backgrounds component for React. Pure React/CSS.",
+    "tags": [
+      "backgrounds",
+      "background",
+      "wave",
+      "react"
+    ],
+    "files": {
+      "css": "animations/backgrounds/Waves/Waves.css",
+      "jsx": "animations/backgrounds/Waves/Waves.jsx"
+    },
+    "dependencies": [],
     "source": "react-bits",
     "sourceUrl": "https://reactbits.dev"
   }
